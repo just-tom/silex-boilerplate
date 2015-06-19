@@ -1,0 +1,9 @@
+.idea
+/vendor/
+.htaccess
+public/assets/node_modules
+public/assets/src/bower_components
+public/assets/dist
+public/assets/npm-debug.log
+
+tools/vagrant/.vagrant

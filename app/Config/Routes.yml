@@ -1,0 +1,5 @@
+config.routes:
+  homepage:
+    pattern: /
+    defaults: { _controller: '\App\Controllers\Base\IndexController::indexAction' }
+    method: GET

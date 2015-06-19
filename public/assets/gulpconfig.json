@@ -1,0 +1,5 @@
+{
+    "build_path" : "./dist/",
+    "src_path": "./src/",
+    "nm": "../../node_modules/"
+}

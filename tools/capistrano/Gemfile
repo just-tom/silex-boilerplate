@@ -1,0 +1,4 @@
+gem 'capistrano', '3.4.0'
+gem 'capistrano-composer'
+
+source 'https://rubygems.org'

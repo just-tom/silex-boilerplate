@@ -1,0 +1,27 @@
+services:
+  form:
+      class: Silex\Provider\FormServiceProvider
+      parameters:
+          form.secret: REPLACE_THIS_NOT_SO_SECRET_SECRET
+
+  session:
+      class: Silex\Provider\SessionServiceProvider
+
+  twig:
+      class: Silex\Provider\TwigServiceProvider
+      parameters:
+          twig.path: %twig.path%
+          twig.options:
+              auto_reload: true
+              debug: true
+
+  url_generator:
+      class: Silex\Provider\UrlGeneratorServiceProvider
+
+  validator:
+      class: Silex\Provider\ValidatorServiceProvider
+
+  translator:
+      class: Silex\Provider\TranslationServiceProvider
+      parameters:
+        translator.messages: array()

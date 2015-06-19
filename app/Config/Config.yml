@@ -1,0 +1,5 @@
+base_url: http://some-url.com/
+default_paths:
+  config.path: %base_path%/app/Config
+  twig.default.path: %base_path%/app/Templates
+
