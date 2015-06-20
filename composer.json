@@ -1,6 +1,6 @@
 {
-    "name": "cranbri/thomasburman",
-    "description": "Personal Portfolio",
+    "name": "justtom/silex-boilerplate",
+    "description": "Simple Silex Boilerplate",
     "require": {
         "silex/silex": "1.2.2",
         "symfony/yaml": "2.6.1",
